@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 				{/* USERS */}
         <Route path="/login" element={<div>로그인 컴포넌트</div>} />
-        <Route path="/signup" element={<div>로그인 컴포넌트</div>} />
+        <Route path="/signup" element={<div>회원가입 컴포넌트</div>} />
 				
 				{/* HTTP ERROR PAGE */}
         <Route path="/404" element={<div>404</div>} />
